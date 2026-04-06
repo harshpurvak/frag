@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import { IoLogIn } from "react-icons/io5";
 
 const Navbar = () => {
 
@@ -11,9 +12,9 @@ const Navbar = () => {
             <div className="container">
                 <main className='grid grid-cols-3'>
                     <div>
-                        <h2 className="text-amber-100 text-2xl">Gandhkosh</h2>
+                        <Link to= "/" className="text-amber-100 text-2xl">Gandhkosh</Link>
                     </div>
-                    <nav className=" grid grid-cols-4  ">
+                    <nav className=" grid grid-cols-4 text-lg gap-4 ">
                         <Link to="/" className="text-white hover:text-amber-100">Home</Link>
                         <Link to="/about" className="text-white hover:text-amber-100">About</Link>
                         <Link to="/explore" className="text-white hover:text-amber-100">Explore</Link>
@@ -23,8 +24,8 @@ const Navbar = () => {
                         
                         <button
                             onClick={() => setShowLogin(true)}
-                            className='text-lg border-2 px-2 py-5px text-amber-200 rounded ' >
-                            Log In
+                            className='text-3xl  px-2 py-5px text-amber-200 rounded ' >
+                            <IoLogIn />
                         </button>
                     </div>
                 </main>
