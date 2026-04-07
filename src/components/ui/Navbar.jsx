@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { IoLogIn } from "react-icons/io5";
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
 
@@ -10,9 +11,9 @@ const Navbar = () => {
     return (
         <div className="bg-gray-900 h-20 flex items-center">
             <div className="container">
-                <main className='grid grid-cols-3'>
+                <main className='grid grid-cols-3 items-center'>
                     <div>
-                        <Link to= "/" className="text-amber-100 text-2xl">Gandhkosh</Link>
+                        <Link to="/" className="text-amber-100 text-2xl">Gandhkosh</Link>
                     </div>
                     <nav className=" grid grid-cols-4 text-lg gap-4 ">
                         <Link to="/" className="text-white hover:text-amber-100">Home</Link>
@@ -20,8 +21,7 @@ const Navbar = () => {
                         <Link to="/explore" className="text-white hover:text-amber-100">Explore</Link>
                         <Link to="/contact" className="text-white hover:text-amber-100">Contact</Link>
                     </nav>
-                    <div className='flex justify-end'>
-                        
+                    <div className='flex justify-center align-middle'>
                         <button
                             onClick={() => setShowLogin(true)}
                             className='text-3xl  px-2 py-5px text-amber-200 rounded ' >
