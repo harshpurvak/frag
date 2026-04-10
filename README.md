@@ -1,4 +1,3 @@
-# 🌸 Scentbase
 
 > A modern fragrance discovery platform — built by a developer, for fragrance lovers.
 
