@@ -39,7 +39,7 @@ const Navbar = () => {
                             className=' float-end text-2xl  rounded text-cyan-800 '>
                             <IoIosCloseCircleOutline />
                         </button>
-                        <h2 className="text-xl font-bold mb-6">Login</h2>
+                        <h2 className="text-xl font-bold mb-6">Log in</h2>
                         <input
                             type="email"
                             placeholder="Email"
