@@ -109,4 +109,4 @@ MIT — do what you want, just don't call it Fragrantica.
 
 ---
 
-*Built with curiosity, caffeine, and way too many fragrance samples.*
+Built with curiosity, caffeine, and way too many fragrance samples.
