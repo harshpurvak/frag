@@ -1,5 +1,5 @@
 
-> A modern fragrance discovery platform — built by a developer, for fragrance lovers.
+> A modern fragrance discovery platform — built by a developer, for fragrance lovers
 
 Inspired by Fragrantica but rebuilt from the ground up with a clean UI, smart features, and a community-first approach. This is also a full-stack learning project, built progressively in JavaScript from React all the way to the backend.
 
